@@ -49,3 +49,7 @@
  )
 
 (add-hook 'after-init-hook (lambda () (load-theme 'solarized-dark)))
+
+(add-hook 'c-mode-common-hook
+          (lambda()
+            (local-set-key  (kbd "C-c o") 'ff-find-other-file)))

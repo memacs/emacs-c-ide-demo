@@ -57,4 +57,6 @@
 (global-set-key (kbd "C-c w") 'whitespace-mode)
 (windmove-default-keybindings)
 
+(global-hl-line-mode t)
+
 (provide 'setup-general)
