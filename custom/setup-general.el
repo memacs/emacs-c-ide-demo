@@ -1,3 +1,5 @@
+(defalias 'insert-string 'insert)
+
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
@@ -58,5 +60,6 @@
 (windmove-default-keybindings)
 
 (global-hl-line-mode t)
+(show-paren-mode 1)
 
 (provide 'setup-general)
